@@ -2,7 +2,7 @@ import React, { createContext, useState, useEffect, useContext } from 'react';
 
 const AuthContext = createContext();
 
-const BACKEND_URL = 'https://grocify-backend-sf6b.onrender.com';
+const BACKEND_URL = 'https://grocify-backend-sf6b.onrender.com/api';
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
